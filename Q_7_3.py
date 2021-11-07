@@ -12,8 +12,8 @@ import random
 from autograd import grad
 from autograd import hessian
 import pandas as pd# max_iters and alpha
-### Get data set ##########################
-datapath = 'D:/Data_ML_Wk_2/'
+### Get data set :: Modify this code ##########################
+datapath = 'path/'
 # load in dataset
 csvname = datapath + '3class_data.txt'
 data = np.loadtxt(csvname,delimiter = ',')
